@@ -21,3 +21,20 @@ HTML5
 CSS3
 
 JavaScript (ES6)
+
+
+🎯 Usage
+
+Open the app in your browser.
+
+Use the "Select All" checkbox to toggle all items.
+
+Select/deselect entire categories (Fruits / Vegetables) or individual items.
+
+The parent checkbox automatically updates when children are toggled.
+
+🐞 Known Issues
+
+Fixed: Parent categories now properly check/uncheck all their children.
+
+Fixed: Children update their parent state correctly (including indeterminate).
