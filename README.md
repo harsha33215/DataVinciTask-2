@@ -1,5 +1,7 @@
 Nested Checkbox Component 
 
+Published Link : https://data-vinci-task-2.vercel.app/
+
 This project implements a Nested Checkbox Component using only HTML, CSS, and Vanilla JavaScript.
 
 The component supports hierarchical selection where parent checkboxes control their children, and child selections update their parents.
