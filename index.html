@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nested Checkbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Nested Checkbox</h2>
+
+    <!-- Select All -->
+    <label>
+      <input type="checkbox" id="selectAll" />
+      Select All
+    </label>
+
+    <!-- Fruits -->
+    <div class="category">
+      <label>
+        <input
+          type="checkbox"
+          class="category-checkbox"
+          data-category="fruits"
+        />
+        Fruits
+      </label>
+      <div class="items">
+        <label><input type="checkbox" class="child fruits" /> Apple</label>
+        <label><input type="checkbox" class="child fruits" /> Banana</label>
+        <label><input type="checkbox" class="child fruits" /> Orange</label>
+      </div>
+    </div>
+
+    <!-- Vegetables -->
+    <div class="category">
+      <label>
+        <input
+          type="checkbox"
+          class="category-checkbox"
+          data-category="vegetables"
+        />
+        Vegetables
+      </label>
+      <div class="items">
+        <label><input type="checkbox" class="child vegetables" /> Carrot</label>
+        <label
+          ><input type="checkbox" class="child vegetables" /> Broccoli</label
+        >
+        <label><input type="checkbox" class="child vegetables" /> Potato</label>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
